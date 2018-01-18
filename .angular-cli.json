@@ -9,6 +9,7 @@
       "outDir": "dist",
       "assets": [
         "assets",
+        "assets/img",
         "favicon.ico"
       ],
       "index": "index.html",
@@ -19,9 +20,18 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "css/bootstrap.min.css",
+        "font-awesome/css/font-awesome.min.css",
+        "css/theme.css",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "js/jquery.js",
+        "js/jquery.easing.min.js",
+        "js/bootstrap.min.js",
+        "js/validate.js",
+        "js/theme.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
